@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- app -->
+    <string name="app_name">TiskTasks for Todoist</string>
+    <string name="author">By Nic Jansma</string>
+    <string name="author_email">nic@tisktasks.com</string>
+    <string name="twitter">"http://twitter.com/TiskTasks"</string>
+    <string name="website">http://tisktasks.com</string>
+    <string name="github">"https://github.com/nicjansma/tisktasks"</string>
+
+    <!-- generic strings -->
+    <string name="no_projects">No Projects!</string>
+    <string name="no_tasks">No Tasks!</string>
+    <string name="no_tasks_today">No Tasks For Today</string>
+    <string name="refresh">Refresh</string>
+    <string name="preferences">Preferences</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="keep_logged_in">Keep Logged In</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="placeholder_really_long">PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder</string>
+    <string name="placeholder_number">9</string>
+    <string name="placeholder_number_2">99</string>
+    <string name="placeholder_date">Jan 1</string>
+    <string name="account">Account</string>
+    <string name="edit_project">Edit Project</string>
+    <string name="add_project">Add Project</string>
+    <string name="delete_project">Delete Project</string>
+    <string name="delete_task">Delete Project</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="due_date">Due Date</string>
+    <string name="api_error">There was an error communicating with todoist.com!  Please try again.</string>
+    <string name="projects">Projects</string>
+    
+    <!-- popups -->
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="logging_in">Logging in to todoist.com</string>
+    <string name="loading_projects">Loading projects from todoist.com</string>
+    <string name="loading_tasks">Loading tasks from todoist.com</string>
+    <string name="loading_today">Loading Today\'s Tasks&#8230;</string>
+    <string name="loading_start_tasks">Loading start page from todoist.com</string>
+    <string name="login_failed">Login failed!</string>
+    <string name="unable_to_login_connection_failure">Unable to login: Unable to connect to todoist.com</string>
+    <string name="unable_to_login_incorrect_password">Unable to login: Incorrect password</string>
+    <string name="unable_to_login_no_password">Unable to login: Please enter a password</string>
+    <string name="deleting_project">Deleting project</string>
+    <string name="adding_project">Adding project</string>
+    <string name="updating_project">Updating project</string>
+    <string name="deleting_task">Deleting task</string>
+    <string name="completing_task">Completing task</string>
+    <string name="uncompleting_task">Un-completing task</string>
+    <string name="adding_task">Adding task</string>
+    <string name="updating_task">Updating task</string>
+    
+    <!-- context menus -->
+    <string name="edit">Edit</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="add_above">Add Above</string>
+    <string name="add_below">Add Below</string>
+    <string name="increase_indent">Increase Indent</string>
+    <string name="decrease_indent">Decrease Indent</string>
+    
+    <!-- layout: account -->
+    <string name="title_account">Todoist Account</string>
+
+    <!-- layout: project_list -->    
+    <string name="title_project_list">Projects</string>
+    <string name="add_project_message">Please enter the name of your new project:</string>
+    <string name="delete_project_confirmation">Are you sure you wish to delete %s?</string>
+
+    <!-- layout: task_list -->    
+    <string name="title_task_list">Tasks</string>
+    <string name="add_task">Add Task</string>
+    <string name="add_task_message">Please enter the name of your new task:</string>
+    <string name="delete_task_confirmation">Are you sure you wish to delete this task?</string>
+    
+    <!-- layout: edit/add task/project -->
+    <string name="title_add_task">Add Task</string>
+    <string name="title_edit_task">Edit Task</string>
+    <string name="date_hint">eg: 2/28 or ev 1.</string>
+    
+    <!-- layout: login -->
+    <string name="login_header">Please login to your todoist.com account:</string>
+    
+    <!-- layout: account -->
+    <string name="account_header">You are currently logged in as:</string>
+    
+    <!-- layout: about -->
+    <string name="disclaimer">TiskTasks is copyright Nic Jansma ©2015</string>
+    <string name="about_thanks">Thanks to Eri :)</string>
+    <string name="about">About</string>
+    <string name="title_about">About TiskTasks</string>
+
+    <!-- preferences -->
+    <string name="title_preferences">Preferences</string>
+    <string name="anonymous_statistics">Anonymous Statistics</string>
+    <string name="analytics_disclaimer">Allow anonymous statistics to be gathered about application usage.</string>
+
+    <!-- api results -->
+    <string name="api_login_error">LOGIN_ERROR</string>
+    
+    <!-- images -->
+    <string name="image_recurring_task">Recurring task</string>
+    <string name="image_expand_tasks">Expand tasks</string>
+    <string name="image_expand_projects">Expand projects</string>
+    <string name="image_icon">TiskTasks icon</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/padding_normal">
+
+    <TextView
+        android:id="@+id/account_header"
+        android:text="@string/account_header"
+        android:textSize="@dimen/font_med"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/account_email"
+        android:text="@string/placeholder"
+        android:textSize="@dimen/font_xlarge" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/account_header"
+        android:layout_marginBottom="@dimen/margin_xlarge"
+        android:layout_marginTop="@dimen/margin_xlarge" 
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/account_logout"
+        android:text="@string/logout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account_email"
+        android:layout_marginRight="@dimen/margin_large"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:textSize="@dimen/font_large" />
+</RelativeLayout>

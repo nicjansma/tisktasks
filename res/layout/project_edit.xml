@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/padding_normal">
+
+    <EditText
+        android:id="@+id/dialog_edit_value"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="text" />
+
+    <GridView
+        android:id="@+id/project_color_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_edit_value"
+        android:numColumns="6"
+        android:stretchMode="columnWidth" 
+        android:verticalSpacing="@dimen/padding_normal"
+        android:horizontalSpacing="@dimen/padding_normal" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/project_color_grid"
+        android:weightSum="2">
+        
+        <Button
+            android:id="@+id/dialog_cancel"
+            android:text="@string/cancel"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" 
+            android:textSize="@dimen/font_large" />
+        
+        <Button
+            android:id="@+id/dialog_save"
+            android:text="@string/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:textSize="@dimen/font_large" />
+    </LinearLayout>
+        
+</RelativeLayout>

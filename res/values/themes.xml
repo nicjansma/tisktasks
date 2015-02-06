@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- the theme applied to the application or activity -->
+    <style name="MainTheme"
+           parent="@style/Theme.AppCompat.Light">
+        
+        <item name="android:actionBarStyle" tools:targetApi="11">@style/ActionBar</item>
+        <item name="actionBarStyle">@style/ActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="ActionBar"
+           parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+    </style>
+</resources>

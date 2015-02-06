@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- font sizes -->
+    <dimen name="font_small">14sp</dimen>
+    <dimen name="font_med">16sp</dimen>
+    <dimen name="font_large">20sp</dimen>
+    <dimen name="font_xlarge">30sp</dimen>
+    
+    <!-- margin/padding sizes -->
+    <dimen name="margin_normal">5dp</dimen>
+    <dimen name="margin_double">10dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="margin_xlarge">30dp</dimen>
+    
+    <dimen name="padding_small">2dp</dimen>
+    <dimen name="padding_normal">5dp</dimen>
+    
+    <!-- items (task/project) box size -->
+    <dimen name="item_box_size">25dp</dimen>
+    <dimen name="check_box_size">25dp</dimen>
+</resources>

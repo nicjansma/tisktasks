@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TiskTasks Test</string>
+    
+    <!-- error messages -->
+    <string name="api_unknown">"UNKNOWN"</string>
+    <string name="api_login_error">"LOGIN_ERROR"</string>
+    
+    <!-- json -->
+    <string name="json_user_login">
+{
+   \"notifo\":\"abc\",
+   \"start_page\":\"od, tod, tom\",
+   \"twitter\":\"efg\",
+   \"api_token\":\"xyz\",
+   \"time_format\":1,
+   \"sort_order\":0,
+   \"full_name\":\"Test\",
+   \"mobile_number\":\"123456789\",
+   \"mobile_host\":\"vzw\",
+   \"timezone\":\"US/Pacific\",
+   \"jabber\":\"ja\",
+   \"id\":166956,
+   \"date_format\":1,
+   \"premium_until\":null,
+   \"tz_offset\":[
+      \"-07:00\",
+      -7,
+      0,
+      1
+   ],
+   \"msn\":null,
+   \"default_reminder\":null,
+   \"email\":\"test@test.com\"
+}
+	</string>
+</resources>

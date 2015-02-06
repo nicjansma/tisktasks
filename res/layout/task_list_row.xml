@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:longClickable="true">
+
+    <RelativeLayout
+        android:id="@+id/list_line"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:longClickable="true">
+
+        <ImageView
+            android:id="@+id/expand_image"
+            android:layout_width="@dimen/item_box_size"
+            android:layout_height="@dimen/item_box_size"
+            android:layout_centerVertical="true"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/image_expand_tasks" />
+
+        <CheckBox
+            android:id="@+id/task_complete"
+            android:layout_width="@dimen/check_box_size"
+            android:layout_height="@dimen/check_box_size"
+            android:layout_toRightOf="@+id/expand_image"
+            android:layout_centerVertical="true"
+            android:background="@drawable/todoist_checkbox_background"
+            android:button="@drawable/todoist_checkbox" />
+        
+        <TextView
+            android:id="@+id/task_name"
+            android:text="@string/placeholder_really_long"
+            android:textSize="@dimen/font_med" 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/task_complete"
+            android:layout_toLeftOf="@+id/task_recurring_image"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_normal"
+            android:maxLines="3"
+            android:gravity="clip_horizontal" />
+            
+        <ImageView
+            android:id="@+id/task_recurring_image"
+            android:layout_width="@dimen/item_box_size"
+            android:layout_height="@dimen/item_box_size"
+            android:layout_toLeftOf="@+id/task_date"
+            android:layout_centerVertical="true"
+            android:gravity="right"
+            android:scaleType="fitCenter"
+            android:background="@drawable/recurring"
+            android:contentDescription="@string/image_recurring_task" />
+
+        <TextView
+            android:id="@+id/task_date"
+            android:text="@string/placeholder_date"
+            android:textSize="@dimen/font_med" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_normal"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/padding_small"
+            android:paddingRight="@dimen/padding_small"
+            android:gravity="right" />
+        
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/list_line" 
+        android:background="#e6e6e6" />
+
+</RelativeLayout>

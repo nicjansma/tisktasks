@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:longClickable="true">
+
+    <RelativeLayout
+        android:id="@+id/list_line"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:longClickable="true"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_normal">
+
+        <ImageView
+            android:id="@+id/expand_image"
+            android:layout_width="@dimen/item_box_size"
+            android:layout_height="@dimen/item_box_size"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/image_expand_projects" />
+
+        <TextView
+            android:id="@+id/project_task_count"
+            android:text="@string/placeholder_number_2" 
+            android:textSize="@dimen/font_med"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/expand_image"
+            android:layout_marginRight="@dimen/margin_normal"
+            android:width="@dimen/item_box_size"
+            android:height="@dimen/item_box_size"
+            android:padding="@dimen/padding_small"
+            android:textColor="#000"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/project_name"
+            android:text="@string/placeholder"
+            android:textSize="@dimen/font_med"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/project_task_count"
+            android:layout_centerVertical="true"
+            android:lines="1"
+            android:gravity="clip_horizontal" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/list_line"
+        android:background="#e6e6e6" />
+
+</RelativeLayout>

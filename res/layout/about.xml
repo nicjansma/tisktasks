@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarStyle="outsideInset"
+    android:padding="@dimen/padding_normal">
+    
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_normal">
+        
+        <ImageView
+            android:id="@+id/about_icon"
+            android:src="@drawable/icon"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/image_icon" />
+    
+        <TextView
+            android:id="@+id/about_app_name"
+            android:layout_below="@+id/about_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_xlarge"
+            android:layout_marginTop="@dimen/margin_double"
+            android:text="@string/app_name" />
+    
+        <TextView
+            android:id="@+id/about_app_version"
+            android:layout_toRightOf="@+id/about_app_name"
+            android:layout_below="@+id/about_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_xlarge"
+            android:layout_marginTop="@dimen/margin_double"
+            android:layout_marginLeft="@dimen/margin_normal" />
+    
+        <TextView
+            android:id="@+id/about_author"
+            android:layout_below="@+id/about_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_med"
+            android:text="@string/author"
+            android:layout_marginTop="@dimen/margin_normal" />
+    
+        <TextView
+            android:id="@+id/about_author_email"
+            android:layout_below="@+id/about_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_med"
+            android:layout_marginTop="@dimen/margin_double"
+            android:text="@string/author_email"
+            android:autoLink="email" />
+    
+        <TextView
+            android:id="@+id/about_website"
+            android:layout_below="@+id/about_author_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_med"
+            android:layout_marginTop="@dimen/margin_double"
+            android:text="@string/website"
+            android:autoLink="web" />
+    
+        <TextView
+            android:id="@+id/about_twitter"
+            android:layout_below="@+id/about_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_med"
+            android:layout_marginTop="@dimen/margin_double"
+            android:text="@string/twitter" 
+            android:autoLink="web" />
+        
+        <TextView
+            android:id="@+id/about_github"
+            android:layout_below="@+id/about_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_med"
+            android:layout_marginTop="@dimen/margin_double"
+            android:text="@string/github"
+            android:autoLink="web" />
+    
+        <TextView
+            android:id="@+id/about_disclaimer"
+            android:layout_below="@+id/about_github"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_small"
+            android:layout_marginTop="@dimen/margin_double"
+            android:text="@string/disclaimer" />
+    
+        <TextView
+            android:id="@+id/about_thanks"
+            android:layout_below="@+id/about_disclaimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_small"
+            android:layout_marginTop="@dimen/margin_double"
+            android:text="@string/about_thanks" />
+    
+    </RelativeLayout>
+</ScrollView>

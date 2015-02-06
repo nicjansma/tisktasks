@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- font sizes -->
+    <dimen name="font_small">16sp</dimen>
+    <dimen name="font_med">20sp</dimen>
+    <dimen name="font_large">24sp</dimen>
+    <dimen name="font_xlarge">30sp</dimen>
+    
+    <!-- items (task/project) box size -->
+    <dimen name="item_box_size">40dp</dimen>
+    <dimen name="check_box_size">40dp</dimen>
+</resources>
