@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+    <integer name="ga_sessionTimeout">1800</integer>
+
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">false</bool>
+
+    <!-- ID goes here -->
+    <string name="ga_trackingId">UA-123-456</string>
+    <string name="ga_reportUncaughtExceptions">true</string>
+</resources>
