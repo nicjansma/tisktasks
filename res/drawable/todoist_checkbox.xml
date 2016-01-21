@@ -4,15 +4,15 @@
     <item
         android:state_checked="true"
         android:state_focused="true"
-        android:drawable="@drawable/todoist_checkbox_on_background" />
+        android:drawable="@drawable/checkbox_on" />
     <item
         android:state_checked="false"
         android:state_focused="true"
-        android:drawable="@drawable/todoist_checkbox_off_background" />
+        android:drawable="@drawable/checkbox_off" />
     <item
         android:state_checked="false"
-        android:drawable="@drawable/todoist_checkbox_off_background" />
+        android:drawable="@drawable/checkbox_off" />
     <item
         android:state_checked="true"
-        android:drawable="@drawable/todoist_checkbox_on_background" />
+        android:drawable="@drawable/checkbox_on" />
 </selector>

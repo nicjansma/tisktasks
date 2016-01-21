@@ -24,7 +24,7 @@ public abstract class TodoistObjectBase
     /**
      * Pixels per indent level.
      */
-    public static final int INDENT_PIXELS = 15;
+    public static final int INDENT_PIXELS = 32;
 
     //
     // Extension methods
@@ -235,9 +235,9 @@ public abstract class TodoistObjectBase
      *
      * @return Object's indent in pixels
      */
-    public final int getIndentInPixels()
+    public final int getIndentInPixels(final float density)
     {
-        int indent = (_indent - 1) * INDENT_PIXELS;
+        int indent = (_indent - 1) * (int)(INDENT_PIXELS * density);
 
         return indent;
     }

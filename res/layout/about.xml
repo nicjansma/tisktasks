@@ -31,17 +31,16 @@
     
         <TextView
             android:id="@+id/about_app_version"
-            android:layout_toRightOf="@+id/about_app_name"
-            android:layout_below="@+id/about_icon"
+            android:layout_below="@+id/about_app_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/font_xlarge"
             android:layout_marginTop="@dimen/margin_double"
-            android:layout_marginLeft="@dimen/margin_normal" />
+            android:text="@string/placeholder" />
     
         <TextView
             android:id="@+id/about_author"
-            android:layout_below="@+id/about_app_name"
+            android:layout_below="@+id/about_app_version"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/font_med"
@@ -105,6 +104,15 @@
             android:textSize="@dimen/font_small"
             android:layout_marginTop="@dimen/margin_double"
             android:text="@string/about_thanks" />
+    
+        <TextView
+            android:id="@+id/about_credits"
+            android:layout_below="@+id/about_thanks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_small"
+            android:layout_marginTop="@dimen/margin_double"
+            android:text="@string/about_credits" />
     
     </RelativeLayout>
 </ScrollView>

@@ -16,6 +16,6 @@
     <dimen name="padding_normal">5dp</dimen>
     
     <!-- items (task/project) box size -->
-    <dimen name="item_box_size">25dp</dimen>
-    <dimen name="check_box_size">25dp</dimen>
+    <dimen name="item_box_size">32dp</dimen>
+    <dimen name="check_box_size">32dp</dimen>
 </resources>
