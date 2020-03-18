@@ -94,6 +94,7 @@
     <string name="about_thanks">Thanks to Eri :)</string>
     <string name="about">About</string>
     <string name="title_about">About TiskTasks</string>
+    <string name="about_credits">Icons via Freepik @ flaticon.com</string>
 
     <!-- preferences -->
     <string name="title_preferences">Preferences</string>

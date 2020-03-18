@@ -183,7 +183,7 @@ public abstract class TodoistListRowBase<T extends TodoistObjectBase>
 
         // margin
         LayoutParams layout = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
-        layout.setMargins(_indent ? _obj.getIndentInPixels() : 0, 0, 0, 0);
+        layout.setMargins(_indent ? _obj.getIndentInPixels(_baseListActivity.getResources().getDisplayMetrics().density) : 0, 0, 0, 0);
 
         if (_obj.isAnyParentCollapsed())
         {
@@ -213,11 +213,11 @@ public abstract class TodoistListRowBase<T extends TodoistObjectBase>
 
             if (_obj.isCollapsed())
             {
-                resIdImage = R.drawable.expander_ic_minimized;
+                resIdImage = R.drawable.arrow_up;
             }
             else
             {
-                resIdImage = R.drawable.expander_ic_maximized;
+                resIdImage = R.drawable.arrow_down;
             }
 
             _expandImage.setVisibility(View.VISIBLE);
